@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app
+    version="4.0"
+    xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:javaee="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  	<description></description>
+  	<servlet-name>RecipeController</servlet-name>
+  	<servlet-class>com.saec.web.RecipeController</servlet-class>
+
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RecipeController</servlet-name>
+  	<url-pattern>/getRecipe</url-pattern>
+  </servlet-mapping>  
+  
+  
+
+  
+  
+  <servlet>
+  	<description></description>
+  	<servlet-name>RecipeController</servlet-name>
+  	<servlet-class>com.saec.web.RecipeController</servlet-class>
+
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RecipeController</servlet-name>
+  	<url-pattern>/postRecipe</url-pattern>
+  </servlet-mapping> 
+  
+  
+  
+  <servlet>
+  	<description></description>
+  	<servlet-name>DeleteRecipe</servlet-name>
+  	<servlet-class>com.saec.web.DeleteRecipe</servlet-class>
+
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DeleteRecipe</servlet-name>
+  	<url-pattern>/DeleteRecipe</url-pattern>
+  </servlet-mapping> 
+  
+  
+  
+    <servlet>
+  	<description></description>
+  	<servlet-name>UpdateServletController</servlet-name>
+  	<servlet-class>com.saec.web.UpdateServletController</servlet-class>
+
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UpdateServletController</servlet-name>
+  	<url-pattern>/UpdateServletController</url-pattern>
+  </servlet-mapping> 
+  
+  
+      <servlet>
+  	<description></description>
+  	<servlet-name>getOneRecipe</servlet-name>
+  	<servlet-class>com.saec.web.UpdateServletController</servlet-class>
+
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>getOneRecipe</servlet-name>
+  	<url-pattern>/getOneRecipe</url-pattern>
+  </servlet-mapping> 
+  
+</web-app>
+
+</element>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4" id="WebApp_ID">
+	<display-name>myrecipe</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
